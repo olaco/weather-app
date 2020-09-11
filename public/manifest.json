@@ -1,0 +1,17 @@
+{
+    "name": "Weather App",
+    "short_name": "Weather",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#a1b697",
+    "theme_color": "#024e5a",
+    "orientation":"portrait",
+    "description":"This is where to search for daily weather conditions",
+    "icon": [
+        {
+            "src": "img/Weather.png",
+            "sizes":"128x128",
+            "type": "image/jpg"
+        }
+    ]
+}

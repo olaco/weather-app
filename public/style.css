@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+
+    background: hsl(101, 18%, 65%);
+    font-size: 1rem;
+}
+
+#top{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+#lead{
+     
+    letter-spacing: 2px;
+    color: #fff;
+    background: url(./img/sky-690293_1920.jpg);
+    font-size: 0.8rem;
+    background-size: cover;
+    min-width: 10vw
+}
+
+
+@media(max-width:500px){
+
+    #top{
+
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+
+
+    html{
+
+        background: #a1b697;
+        font-size: 0.8rem;
+    }
+
+    #lead{
+
+        margin-bottom: 5px;
+    }
+
+}
+
+
+.display{
+
+    background: #024e5a;
+    border:2px solid #333;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center
+}
+
+
+#show{
+
+    color:#fff;
+    text-align: center;
+}
+
+h2{
+
+    color:#fff;
+}
+
+input[type="text"]{
+
+    color: #024e5a;
+    
+}
